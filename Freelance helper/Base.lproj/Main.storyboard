@@ -342,7 +342,9 @@
                             <outlet property="delegate" destination="ACf-BG-2AT" id="qHc-hv-ggI"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="工作記錄" id="Mdm-Rp-eRC"/>
+                    <navigationItem key="navigationItem" title="工作記錄" id="Mdm-Rp-eRC">
+                        <barButtonItem key="rightBarButtonItem" title="新增" id="mel-IR-oCi"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RAi-Gz-711" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
