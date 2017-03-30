@@ -12,6 +12,8 @@
 		32092BE71E8D4D6F004E417C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32092BE51E8D4D6F004E417C /* Main.storyboard */; };
 		32092BE91E8D4D6F004E417C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32092BE81E8D4D6F004E417C /* Assets.xcassets */; };
 		32092BEC1E8D4D6F004E417C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32092BEA1E8D4D6F004E417C /* LaunchScreen.storyboard */; };
+		32092BF41E8D4DE4004E417C /* FreelanceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32092BF31E8D4DE4004E417C /* FreelanceHelper.swift */; };
+		32092BF61E8D77AE004E417C /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32092BF51E8D77AE004E417C /* SliderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		32092BE81E8D4D6F004E417C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32092BEB1E8D4D6F004E417C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32092BED1E8D4D6F004E417C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32092BF31E8D4DE4004E417C /* FreelanceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreelanceHelper.swift; sourceTree = "<group>"; };
+		32092BF51E8D77AE004E417C /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		32092BD51E8D4D6F004E417C = {
 			isa = PBXGroup;
 			children = (
+				32092BF51E8D77AE004E417C /* SliderViewController.swift */,
 				32092BE01E8D4D6F004E417C /* Freelance helper */,
 				32092BDF1E8D4D6F004E417C /* Products */,
 			);
@@ -57,6 +62,7 @@
 				32092BE11E8D4D6F004E417C /* AppDelegate.swift */,
 				32092BE31E8D4D6F004E417C /* ViewController.swift */,
 				32092BE51E8D4D6F004E417C /* Main.storyboard */,
+				32092BF31E8D4DE4004E417C /* FreelanceHelper.swift */,
 				32092BE81E8D4D6F004E417C /* Assets.xcassets */,
 				32092BEA1E8D4D6F004E417C /* LaunchScreen.storyboard */,
 				32092BED1E8D4D6F004E417C /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				32092BE41E8D4D6F004E417C /* ViewController.swift in Sources */,
 				32092BE21E8D4D6F004E417C /* AppDelegate.swift in Sources */,
+				32092BF41E8D4DE4004E417C /* FreelanceHelper.swift in Sources */,
+				32092BF61E8D77AE004E417C /* SliderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
